@@ -1,0 +1,106 @@
+/* utiltiy classes */
+.text-center{
+    text-align: center;
+}
+
+.button-1-color{
+    background-color: #b18e8e; 
+}
+.button-2-color{
+    background-color: #333030; 
+}
+.button-3-color{
+    background-color: #FF9500; 
+}
+
+
+
+
+/* html  */
+ .calc-body{
+    background: linear-gradient(to right, #00ffcc 0%, #ffcccc 60%);
+    font-size: 30px;
+}
+ .calculator-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 90vh;
+    max-width: 24vw;
+    background-color:#000 ;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+.input-row{
+height:160px;
+width: 90%;
+margin: 30px 10px;
+border: 10x solid #000;
+}
+.input-row input{
+    /* border-radius: 30px; */
+height:100% ;
+width: 100%;
+background-color: #000;
+border-radius: 8px;
+color: #fff;
+font-size: 40px;
+}
+.row-one{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 20px;
+}
+
+.calc-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.row-two{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.row-three{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.row-four{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.row-five{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    /* Adjust the styles for smaller screens, like tablets and mobile devices */
+    .container {
+        max-width: 90%; /* Make the container take up more of the screen */
+        border-radius: 20px; /* Reduce the border radius */
+    }
+    .input-row {
+        height: 100px; /* Reduce the input row height */
+        margin: 20px 5px; /* Reduce the margin */
+        border-width: 5px; /* Reduce the border width */
+    }
+    .calc-button {
+        width: 40px; /* Make the buttons smaller */
+        height: 40px;
+    }
+}
